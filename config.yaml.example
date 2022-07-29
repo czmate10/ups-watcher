@@ -1,0 +1,13 @@
+datadog_config:
+  host: 127.0.0.1
+  port: 8125
+  namespace: ups_watcher
+
+  watchlist:
+    - STATUS
+    - BCHARGE
+    - TIMELEFT
+    - BATTV
+    - NUMXFERS
+    - TONBATT
+    - CUMONBATT
